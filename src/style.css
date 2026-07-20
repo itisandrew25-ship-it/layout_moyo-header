@@ -25,6 +25,7 @@ a {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,12 +34,10 @@ a {
 .logo {
   display: flex;
   align-items: center;
-  padding-left: 50px;
 }
 
 .navigation__list {
   display: flex;
-  padding-right: 50px;
 }
 
 .navigation__list-item {
