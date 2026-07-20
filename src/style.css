@@ -5,6 +5,8 @@ html {
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 ul {
@@ -20,7 +22,9 @@ a {
 
 .container {
   position: relative;
-  min-width: 1200px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,8 +42,8 @@ a {
 }
 
 .navigation__list-item {
-  margin-right: 20px;
   text-transform: uppercase;
+  margin-right: 20px;
 }
 
 .navigation__list-item:last-child {
